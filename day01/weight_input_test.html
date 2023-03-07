@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script>
+    var weight=prompt("당신의 몸무게는?","0");
+    var height=prompt("당신의 키는?","0");
+    var rightWeight = (height -100) * 0.9;
+    var difference = (rightWeight - weight) >= 0? (rightWeight - weight)+"kg 많습니다 " : -(rightWeight - weight)+"kg 적습니다" ;
+    
+
+    document.write("적정 체중은" +rightWeight +"이며 현재 적정체중보다"+difference);
+
+
+
+
+</script>
+
+ 
+
+</head>
+<body>
+    
+</body>
+</html>

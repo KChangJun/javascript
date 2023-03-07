@@ -1,0 +1,33 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script>
+    //진영이의 하루 지출내역이 다음과 같다고 할 때, 하루 지출 비용의 합계를 구한 후 적정 지출 비용의 초과 여부를 출력하시오
+    //하루 지출 내역 교통비 3,000원 식비 6,000원 음료비 3,000원 삼항조건 연산자를 사용해서
+    //1만원을 초과햇을시 "000원 초과"라고 출력, 아닐경우에는 "돈 관리 잘 했어요 " 라고 출력
+    var transprtationFee = 3000; //교통비
+    var foodFee=6000; // 음식비
+    var drinkFee=3000;
+    var expenditure = transprtationFee + foodFee + drinkFee;
+    var averageExpenditure = expenditure-10000<0 ? "돈 관리 잘 했어요" : (expenditure-10000) + "원 초과";
+    
+    document.write(averageExpenditure);
+
+
+
+
+</script>
+
+</head>
+<body>
+    
+</body>
+</html>
